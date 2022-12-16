@@ -10,7 +10,7 @@ const GoogleAutocomplete = ({onPress}) => {
       fetchDetails={true}
       onPress={(data, details = null) => onPress(data, details)}
       query={{
-        key: 'AIzaSyAMPepkiWkVAjBJ7eCDMOCfR462gXCgNeo',
+        key: 'UR key',
         language: 'en',
         components: 'country:pk',
       }}
